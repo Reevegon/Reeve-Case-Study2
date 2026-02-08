@@ -19,6 +19,8 @@ To develop a deep learning–based system for automated detection and KL grading
 - Model interpretability using Grad-CAM
 
 ## Current Status
+Phase 1 Complete 
+
 Current Progress (Phase 2)
 
 - Dataset downloaded and verified locally (train/val/test splits, KL 0–4 labels).
