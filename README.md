@@ -7,8 +7,10 @@ AI-Driven Detection and Grading of Knee Osteoarthritis in Radiographic Data
 To develop a deep learning–based system for automated detection and KL grading of knee osteoarthritis using X-ray images.
 
 ## Dataset
-- Osteoarthritis Initiative (OAI) – primary dataset
-- MOST – backup dataset
+- Name: Knee Osteoarthritis Dataset with Severity Grading
+
+- Source: Kaggle (author: shashwatwork / Shashwat Tiwari)
+
 
 ## Methodology
 - Transfer learning using CNN architectures (ResNet, DenseNet)
@@ -19,31 +21,29 @@ To develop a deep learning–based system for automated detection and KL grading
 ## Current Status
 Current Progress (Phase 2)
 
-Dataset downloaded and verified locally (train/val/test splits, KL 0–4 labels).
+- Dataset downloaded and verified locally (train/val/test splits, KL 0–4 labels).
 
-EDA completed: class distribution analysis + visual inspection across KL grades.
+- EDA completed: class distribution analysis + visual inspection across KL grades.
 
-Baseline transfer learning model implemented (ResNet-18 pretrained on ImageNet).
+- Baseline transfer learning model implemented (ResNet-18 pretrained on ImageNet).
 
-Initial training completed (5 epochs) with evaluation on validation and test sets.
+- Initial training completed (5 epochs) with evaluation on validation and test sets.
 
-Baseline Results (ResNet-18, 5 epochs)
+- Baseline Results (ResNet-18, 5 epochs)
 
-Test Accuracy: 0.598
+     Test Accuracy: 0.598
 
-Test Macro F1: 0.629
+     Test Macro F1: 0.629
 
 Notes
 
-Strong class imbalance observed (KL 4 minority class).
+- Strong class imbalance observed (KL 4 minority class).
 
-Most confusion occurs between adjacent KL grades (e.g., KL1–KL2, KL3–KL4), consistent with subtle radiographic differences.
-
-Also add a “Reproducibility” note:
+- Most confusion occurs between adjacent KL grades (e.g., KL1–KL2, KL3–KL4), consistent with subtle radiographic differences.
 
 Reproducibility
 
-Dataset is not stored in this repository due to size/licensing.
+- Dataset is not stored in this repository due to size/licensing.
 
-Expected local path:
-data/raw/knee-osteoarthritis-dataset-with-severity/{train,val,test}
+- Expected local path:
+  data/raw/knee-osteoarthritis-dataset-with-severity/{train,val,test}
