@@ -40,13 +40,6 @@ The project follows a research-driven workflow including:
 
 ---
 
-## Current Status  
-
-✔ Phase 1 Complete  
-✔ Phase 2 Advanced Experimental Stage Complete  
-
----
-
 ## Current Progress  
 
 - Dataset downloaded and verified locally (train/val/test splits, KL 0–4 labels).  
