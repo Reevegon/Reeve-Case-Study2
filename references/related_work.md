@@ -130,7 +130,7 @@ Although attention-based and ensemble approaches achieve higher reported accurac
 
 The current work establishes a strong experimental foundation for these extensions while maintaining architectural simplicity and interpretability.
 
-##16. References 
+## 8. References 
 [1] Antony, J., McGuinness, K., O’Connor, N., & Moran, K. (2017). 
 Automatic detection of knee joints and quantification of knee osteoarthritis severity 
 using convolutional neural networks. 
