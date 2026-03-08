@@ -129,3 +129,43 @@ Although attention-based and ensemble approaches achieve higher reported accurac
 - Multi-view joint modeling  
 
 The current work establishes a strong experimental foundation for these extensions while maintaining architectural simplicity and interpretability.
+
+##16. References 
+[1] Antony, J., McGuinness, K., O’Connor, N., & Moran, K. (2017). 
+Automatic detection of knee joints and quantification of knee osteoarthritis severity 
+using convolutional neural networks. 
+IEEE Transactions on Medical Imaging. 
+
+[2] Tiulpin, A., Thevenot, J., Rahtu, E., Lehenkari, P., & Saarakkala, S. (2018). 
+Automatic knee osteoarthritis diagnosis from plain radiographs using deep learning. 
+Scientific Reports. 
+
+[3] He, K., Zhang, X., Ren, S., & Sun, J. (2016). 
+Deep Residual Learning for Image Recognition. 
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition 
+(CVPR). 
+
+[4] Huang, G., Liu, Z., Van Der Maaten, L., & Weinberger, K. Q. (2017). 
+Densely Connected Convolutional Networks. 
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition 
+(CVPR). 
+
+[5] Selvaraju, R. R., et al. (2017). 
+Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization. 
+International Journal of Computer Vision. 
+
+[6] Litjens, G., et al. (2017). 
+A survey on deep learning in medical image analysis. 
+Medical Image Analysis. 
+
+[7] Krizhevsky, A., Sutskever, I., & Hinton, G. (2012). 
+ImageNet classification with deep convolutional neural networks. 
+Advances in Neural Information Processing Systems (NeurIPS). 
+
+[8] Tan, M., & Le, Q. (2019). 
+EfficientNet: Rethinking model scaling for convolutional neural networks. 
+Proceedings of the International Conference on Machine Learning (ICML). 
+
+[9] Russakovsky, O., et al. (2015). 
+ImageNet Large Scale Visual Recognition Challenge. 
+International Journal of Computer Vision.
